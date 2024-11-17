@@ -15,24 +15,28 @@ int main() {
         return 1;
     }
 
+    // Read allocated resources matrix
     for (int i = 0; i < Max_Processes; ++i) {
         for (int j = 0; j < Max_Resources; ++j) {
-            bankers_file >> allocation[i][j];
+            bankers_file >> allocated[i][j];
         }
     }
 
+    // Read maximum resources matrix
     for (int i = 0; i < Max_Processes; ++i) {
         for (int j = 0; j < Max_Resources; ++j) {
             bankers_file >> maximum[i][j];
         }
     }
 
+    // Read available resources
     for (int i = 0; i < Max_Resources; ++i) {
         bankers_file >> available[i];
     }
 
-    baker_file.close();
+    bankers_file.close();
 
+    // Call safe_check function
     safe_check(available, maximum, allocated);
 
     return 0;
