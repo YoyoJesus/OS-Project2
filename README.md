@@ -1,4 +1,4 @@
-# OS-Project1 - The Consumer Producer Problem
+# OS-Project2 - Banker's Algorithm with Safe and Unsafe States
 - *Tested on CentOS via Kent State University's Wasp/Hornet Servers*
 
 ## Project Assignment:
