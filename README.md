@@ -37,7 +37,7 @@ To clean-up the files made to run the program, enter the command:
 make clean
 ```
 
-When you run the program, you will then be prompted to enter a input file for the code to test:
+When you run the program, you will then be prompted to enter a input file for the code to test. This file must be in the same root directory of the codebase.
 ```{bash}
 ./bankers
 Enter the input file name: 
