@@ -79,7 +79,7 @@ System is in a safe state, safe sequence is: P1 -> P3 -> P4 -> P0 -> P2
 ```{bash}
 ./bankers
 Enter the input file name: data2.txt
-System is not in a safe state, Banker's algorithm cannot be applied.
+System is not in a safe state, Banker's algorithm cannot be applied safely.
 ```
 ### data3.txt:
 ```{bash}

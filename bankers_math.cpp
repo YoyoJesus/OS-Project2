@@ -49,7 +49,7 @@ bool safe_check(int available[], int maximum[][Max_Resources], int allocated[][M
         }
 
         if (!found) {
-            std::cout << "System is not in a safe state, Banker's algorithm cannot be applied.\n";
+            std::cout << "System is not in a safe state, Banker's algorithm cannot be applied safely.\n";
             return false;
         }
     }
