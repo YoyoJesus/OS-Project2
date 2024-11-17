@@ -48,6 +48,24 @@ There are a few pre-made files to use as tests
 - data2.txt
 - data3.txt
 
+### Example Input (data3.txt):
+```
+0 1 2
+2 0 1
+1 2 1
+3 0 0
+1 1 1
+7 5 3
+6 4 2
+5 3 3
+4 3 3
+4 2 2
+3 3 2
+```
+- The first 5 rows represent the Allocation Matrix.
+- The next 5 rows represent the Maximum Demand Matrix.
+- The last row represents the Available Resources.
+
 ## Expected Outputs:
 
 ### data1.txt:
